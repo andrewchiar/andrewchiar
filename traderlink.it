@@ -11,13 +11,13 @@
         function compilaForm() {
             // Modifica i nomi dei campi in base a quelli reali nella pagina del form
             var nome = document.querySelector('[name="nome"]'); // Cambia "nome" se necessario
-            if (nome) nome.value = '"><img src=x onerror=prompt(1)>';
+            if (nome) nome.value = 'pippo';
 
             var cognome = document.querySelector('[name="cognome"]'); // Cambia "cognome" se necessario
             if (cognome) cognome.value = 'pluto';
 
             var commenti = document.querySelector('[name="commenti"]'); // Cambia "commenti" se necessario
-            if (commenti) commenti.value = '"><img src=x onerror=prompt(1)>';
+            if (commenti) commenti.value = 'paperino';
 
             // Cerca e clicca sul pulsante di invio
             var button = document.querySelector('input[type="submit"], button[type="submit"]');
